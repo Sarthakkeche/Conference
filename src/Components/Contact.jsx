@@ -9,23 +9,9 @@ const ContactUs = () => {
     <>
     <div style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
       <Navbar />
-      <div className="relative h-80 w-full">
-                          {/* Background Image */}
-                          <img
-                            src={bg}
-                            alt="Background"
-                            className="h-full w-full object-cover"
-                          />
-                  
-                          {/* Overlay */}
-                          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                            <h1 className=" text-gray-300 text-4xl md:text-6xl font-bold animate-fade-in">
-                            Contact Us
-                            </h1>
-                          </div>
-                        </div>
-      <div className="flex flex-col items-center mt-25 min-h-screen px-6 py-12" style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
-        <div className="max-w-2xl w-full bg-white shadow-xl rounded-xl p-10 border border-gray-300">
+     
+      <div className="flex flex-col items-center mt-25 min-h-screen px-6 " style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
+        <div className="max-w-2xl w-full bg-white shadow-xl rounded-xl p-10 border border-gray-300 mt-10">
           <h2 className="text-4xl font-bold text-blue-700 text-center mb-8">Contact Us</h2>
 
           <div className="space-y-8 text-center">

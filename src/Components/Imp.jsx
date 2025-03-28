@@ -15,22 +15,8 @@ const Imp = () => {
   return (
     <div className="all" style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
       <Navbar/>
-      <div className="relative h-80 w-full">
-                                {/* Background Image */}
-                                <img
-                                  src={bg}
-                                  alt="Background"
-                                  className="h-full w-full object-cover"
-                                />
-                        
-                                {/* Overlay */}
-                                <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                                  <h1 className=" text-gray-300 text-4xl md:text-6xl font-bold animate-fade-in">
-                                    Important Dates
-                                  </h1>
-                                </div>
-                              </div>
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 py-12">
+     
+    <div className="flex flex-col items-center justify-center min-h-screen px-4 mt-5">
       <div className="max-w-3xl text-center">
         <h2 className="text-3xl font-bold text-blue-600 mb-6">Important Dates</h2>
         <p className="text-gray-600 text-lg">Mark your calendars and don't miss these deadlines!</p>

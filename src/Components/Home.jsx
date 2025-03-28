@@ -238,7 +238,7 @@ function Home() {
                 <div className="flex flex-col items-center md:items-start justify-center font-playfair text-white">
                   <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">ICCSS 2025</h1>
                   <p className="mt-4 text-lg md:text-xl max-w-2xl text-gray-300 font-bold text-center md:text-left">
-                    Curious International Conference on Cyber Security & Smart Systems
+                     International Conference on CyberTech & Smart Systems (ICCSS-2025)
                   </p>
                   <p className="mt-2 text-base md:text-lg max-w-2xl text-gray-300 font-bold">
                     HOSTING BY D.Y. PATIL COLLEGE OF ENGINEERING, PUNE
@@ -262,14 +262,14 @@ function Home() {
         <h2 className="text-blue-500 text-lg md:text-xl font-bold">ABOUT ICCSS 2025</h2>
         <h3 className="text-2xl md:text-3xl font-bold mt-2">Mode: Hybrid</h3>
         <p className="mt-4 text-sm md:text-base">
-          The International Conference on Cybertech & Smart Systems (ICCSS-2025) is a two-day event organized by
+          The International Conference on CyberTech & Smart Systems (ICCSS-2025) is a two-day event organized by
           D. Y. Patil College of Engineering, Akurdi, Pune. The conference focuses on cybersecurity advancements
           and smart technology innovations, bringing together researchers, academicians, and industry professionals
           to share knowledge and insights.
         </p>
         <div className="mt-6 text-sm md:text-base">
           <p><span className="font-bold">Conference Date:</span> 9th and 10th May, 2025</p>
-          <p><span className="font-bold">Mode:</span> Hybrid</p>
+        
           <p><span className="font-bold">Venue:</span> D.Y. Patil College of Engineering, Pune</p>
         </div>
       </div>

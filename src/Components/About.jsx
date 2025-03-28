@@ -36,9 +36,12 @@ function About(){
     
           
         </div>
-        <p class="leading-relaxed">Dr. D. Y. Patil Prathishthan's, D.Y. Patil College of Engineering, was established in 1984 in Pimpri and later shifted to Akurdi complex in 2001,which is in the vicinity of PimpriChinchwad Industrial area, one of the biggest Industrial belts in Asia. The college spreads over 10 acres of land with seven Engineering disciplines. This Institute is approved by AICTE, New Delhi and is affiliated to the SavitribaiPhule Pune University. D Y Patil College of Engineering has been granted Autonomous status from the Academic Year 2024-25
+        <p class="leading-relaxed text-justify">
+  Dr. D. Y. Patil Prathishthan's, D.Y. Patil College of Engineering, was established in 1984 in Pimpri and later shifted to Akurdi complex in 2001, which is in the vicinity of Pimpri-Chinchwad Industrial area, one of the biggest Industrial belts in Asia. The college spreads over 10 acres of land with seven Engineering disciplines. This Institute is approved by AICTE, New Delhi and is affiliated to the Savitribai Phule Pune University. D Y Patil College of Engineering has been granted Autonomous status from the Academic Year 2024-25.
 
-        The college has excellent & ambient infrastructure with well-equipped laboratories. Well-qualified, motivated, and dedicated faculty members are serving in the Institute. Students are encouraged to actively participate in National and State level co-curricular and extracurricular activities. The institute has well planned boys and girls hostel in the campus with better amenities and ultra-modern facilities</p>
+  The college has excellent & ambient infrastructure with well-equipped laboratories. Well-qualified, motivated, and dedicated faculty members are serving in the Institute. Students are encouraged to actively participate in National and State level co-curricular and extracurricular activities. The institute has well-planned boys and girls hostel in the campus with better amenities and ultra-modern facilities.
+</p>
+
 
       </div>
     </div>

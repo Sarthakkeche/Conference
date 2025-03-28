@@ -149,7 +149,7 @@ function Registration() {
       <div className='flex items-center justify-center p-4'>
         <div className="flex flex-col items-start min-h-screen w-full md:w-[900px] p-4">
           
-          <h1 className='font-bold text-2xl mt-4 md:mt-8'>ICCSS 2025 Conference Benefits</h1>
+          <h1 className='font-bold text-2xl mt-4 md:mt-8'>ICCSS 2025 Registration</h1>
           <div className='h-[4px] w-[78px] bg-blue-500 mt-2'></div>
           
           <div className="bg-gray-800 text-white rounded-lg shadow-lg w-full overflow-hidden mt-4">
