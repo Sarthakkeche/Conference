@@ -15,14 +15,16 @@ const ContactUs = () => {
           <h2 className="text-4xl font-bold text-blue-700 text-center mb-8">Contact Us</h2>
 
           <div className="space-y-8 text-center">
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800">📍 Venue</h3>
-              <p className="text-gray-600 text-lg">DY Patil College of Engineering, Pune</p>
-            </div>
+           
 
             <div>
               <h3 className="text-2xl font-semibold text-gray-800">👨‍🏫 Contact Persons</h3>
               <p className="text-gray-600 text-lg">Dr. Latika Desai, Dr. Ashok More</p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-semibold text-gray-800">Number</h3>
+              <p className="text-gray-600 text-lg">9822601202 , 9822208643</p>
             </div>
 
             <div>

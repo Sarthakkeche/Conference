@@ -167,7 +167,7 @@ const Venue = () => {
               Venue Details
             </motion.h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              The Santai Auditorium, located in DY Patil College of Engineering, Pune, 
+              The Shantai Auditorium, located in DY Patil College of Engineering, Pune, 
               is a state-of-the-art facility designed to host conferences, seminars, and 
               corporate events. Equipped with high-quality acoustics, modern infrastructure, 
               and spacious seating, it provides an ideal environment for professional gatherings.

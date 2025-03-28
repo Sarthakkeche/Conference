@@ -241,9 +241,9 @@ function Home() {
                      International Conference on CyberTech & Smart Systems (ICCSS-2025)
                   </p>
                   <p className="mt-2 text-base md:text-lg max-w-2xl text-gray-300 font-bold">
-                    HOSTING BY D.Y. PATIL COLLEGE OF ENGINEERING, PUNE
+                    Hosted By D.Y. PATIL COLLEGE OF ENGINEERING, AKRUDI , PUNE-44
                   </p>
-                  <p className="mt-2 text-base md:text-lg max-w-2xl text-gray-300 font-bold">9-10 May 2025</p>
+                  <p className="mt-2 text-base md:text-lg max-w-2xl text-gray-300 font-bold">9th-10th May 2025</p>
                   <button className="mt-6 px-6 md:px-8 py-2 md:py-3 bg-blue-500 hover:bg-blue-700 text-white rounded-full text-sm md:text-lg font-semibold shadow-md transition-all duration-300">
                     Submit Paper
                   </button>
