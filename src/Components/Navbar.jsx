@@ -53,13 +53,14 @@
 
 // export default Navbar;
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , useLocation} from "react-router-dom";
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import logo from "../assets/logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-1 bg-white text-gray-800 shadow-md">
@@ -86,13 +87,13 @@ function Navbar() {
         </div>
         <ul className="flex flex-col gap-6 p-6">
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+            <Link to="/" className={` ${location.pathname=='/'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Home</Link>
           </li>
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link to="/about" className={` ${location.pathname=='/about'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>About</Link>
           </li>
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/comitee" onClick={() => setMenuOpen(false)}>Committee</Link>
+            <Link to="/comitee" className={` ${location.pathname=='/comitee'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Committee</Link>
           </li>
 
           {/* Dropdown - Call For Papers (Mobile) */}
@@ -111,16 +112,16 @@ function Navbar() {
           )}
 
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/Imp" onClick={() => setMenuOpen(false)}>Important Dates</Link>
+            <Link to="/Imp" className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Important Dates</Link>
           </li>
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/Venue" onClick={() => setMenuOpen(false)}>Venue</Link>
+            <Link to="/Venue" className={` ${location.pathname=='/Venue'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Venue</Link>
           </li>
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link>
+            <Link to="/registration" className={` ${location.pathname=='/registration'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Registration</Link>
           </li>
           <li className="hover:text-blue-500 cursor-pointer">
-            <Link to="/Contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+            <Link to="/Contact" className={` ${location.pathname=='/Contact'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Contact</Link>
           </li>
         </ul>
       </div>
@@ -128,13 +129,13 @@ function Navbar() {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-4 relative">
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/">Home</Link>
+          <Link to="/" className={` ${location.pathname=='/'?'text-blue-500' : ""}`}>Home</Link>
         </li>
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/about">About</Link>
+          <Link to="/about" className={` ${location.pathname=='/about'?'text-blue-500' : ""}`}>About</Link>
         </li>
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/comitee">Committee</Link>
+          <Link to="/comitee" className={` ${location.pathname=='/comitee'?'text-blue-500' : ""}`}>Committee</Link>
         </li>
 
         {/* Dropdown for Call For Papers (Desktop) */}
@@ -156,16 +157,16 @@ function Navbar() {
         </li>
 
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/Imp">Important Dates</Link>
+          <Link to="/Imp" className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`}>Important Dates</Link>
         </li>
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/Venue">Venue</Link>
+          <Link to="/Venue" className={` ${location.pathname=='/Venue'?'text-blue-500' : ""}`}>Venue</Link>
         </li>
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/registration">Registration</Link>
+          <Link to="/registration" className={` ${location.pathname=='/registration'?'text-blue-500' : ""}`}>Registration</Link>
         </li>
         <li className="hover:text-blue-500 cursor-pointer">
-          <Link to="/Contact">Contact Us</Link>
+          <Link to="/Contact" className={` ${location.pathname=='/Contact'?'text-blue-500' : ""}`}>Contact Us</Link>
         </li>
       </ul>
     </nav>
