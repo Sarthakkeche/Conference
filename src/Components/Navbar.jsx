@@ -21,9 +21,9 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 bg-white text-gray-800 shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center pl-3  pr-3 bg-white text-gray-800 shadow-md">
       <div className="text-xl font-bold">
-        <img src={logo} className="h-16 w-36" alt="Logo" />
+        <img src={logo} className="h-24 w-36" alt="Logo" />
       </div>
 
       {/* Mobile Menu Button */}
@@ -44,9 +44,10 @@ function Navbar() {
           </button>
         </div>
         <ul className="flex flex-col gap-4 p-6">
-          <li className="hover:text-blue-500">
+           <li className="hover:text-blue-500">
             <Link to="/" className={` ${location.pathname=='/'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Home</Link>
-          </li>
+          </li> 
+        
           <li className="hover:text-blue-500">
             <Link to="/about" className={` ${location.pathname=='/about'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>About</Link>
           </li>
@@ -70,7 +71,10 @@ function Navbar() {
                   <Link to="/submission">Submission Guidelines</Link>
                 </li>
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/topics">Submit Paper</Link>
+                  <Link to="/Topic">Topics of Interest</Link>
+                </li>
+                <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+                <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
                 </li>
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                   <Link to="/review-process">Review Process</Link>
@@ -96,9 +100,36 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 relative">
-        <li className="hover:text-blue-500"><Link to="/" className={` ${location.pathname=='/'?'text-blue-500' : ""}`}>Home</Link></li>
-        <li className="hover:text-blue-500"><Link to="/about" className={` ${location.pathname=='/about'?'text-blue-500' : ""}`}>About</Link></li>
-        <li className="hover:text-blue-500"><Link to="/comitee" className={` ${location.pathname=='/comitee'?'text-blue-500' : ""}`}>Committee</Link></li>
+        {/* <li className="hover:text-blue-500"><Link to="/" className={` ${location.pathname=='/'?'text-blue-500' : ""}`}>Home</Link></li> */}
+        <li className="relative group">
+  <Link
+    to="/"
+    className={`hover:text-blue-500 relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/'?'text-blue-500' : ""}`}
+  >
+    Home
+  </Link>
+</li>
+
+
+        {/* <li className="hover:text-blue-500"><Link to="/about" className={` ${location.pathname=='/about'?'text-blue-500' : ""}`}>About</Link></li>
+        <li className="hover:text-blue-500"><Link to="/comitee" className={` ${location.pathname=='/comitee'?'text-blue-500' : ""}`}>Committee</Link></li> */}
+         <li className="relative group">
+  <Link
+    to="/about"
+    className={`hover:text-blue-500 relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/about'?'text-blue-500' : ""}`}
+  >
+    About
+  </Link>
+</li>
+
+<li className="relative group">
+  <Link
+    to="/comitee"
+    className={`hover:text-blue-500 relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/comitee'?'text-blue-500' : ""}`}
+  >
+    Committee
+  </Link>
+</li>
 
         {/* Dropdown */}
         <div className="relative" ref={dropdownRef}>
@@ -116,7 +147,10 @@ function Navbar() {
                 <Link to="/submission">Submission Guidelines</Link>
               </li>
               <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="/topics">Submit Paper</Link>
+                <Link to="/Topic">Topic of Interest</Link>
+              </li>
+              <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+                 <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
               </li>
               <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                 <Link to="/review-process">Review Process</Link>
@@ -125,10 +159,46 @@ function Navbar() {
           )}
         </div>
 
-        <li className="hover:text-blue-500"><Link to="/Imp" className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`}>Important Dates</Link></li>
+        {/* <li className="hover:text-blue-500"><Link to="/Imp" className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`}>Important Dates</Link></li>
         <li className="hover:text-blue-500"><Link to="/Venue" className={` ${location.pathname=='/Venue'?'text-blue-500' : ""}`}>Venue</Link></li>
         <li className="hover:text-blue-500"><Link to="/registration" className={` ${location.pathname=='/registration'?'text-blue-500' : ""}`}>Registration</Link></li>
-        <li className="hover:text-blue-500"><Link to="/Contact" className={` ${location.pathname=='/Contact'?'text-blue-500' : ""}`}>Contact Us</Link></li>
+        <li className="hover:text-blue-500"><Link to="/Contact" className={` ${location.pathname=='/Contact'?'text-blue-500' : ""}`}>Contact Us</Link></li> */}
+        <li className="hover:text-blue-500 relative group">
+  <Link
+    to="/Imp"
+    className={`relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/Imp'?'text-blue-500' : ""}`}
+  >
+    Important Dates
+  </Link>
+</li>
+
+<li className="hover:text-blue-500 relative group">
+  <Link
+    to="/Venue"
+    className={`relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/Venue'?'text-blue-500' : ""}`}
+  >
+    Venue
+  </Link>
+</li>
+
+<li className="hover:text-blue-500 relative group">
+  <Link
+    to="/registration"
+    className={`relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/registration'?'text-blue-500' : ""}`}
+  >
+    Registration
+  </Link>
+</li>
+
+<li className="hover:text-blue-500 relative group">
+  <Link
+    to="/Contact"
+    className={`relative pb-1 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 group-hover:after:w-full ${location.pathname=='/Contact'?'text-blue-500' : ""}`}
+  >
+    Contact Us
+  </Link>
+</li>
+
       </ul>
     </nav>
     

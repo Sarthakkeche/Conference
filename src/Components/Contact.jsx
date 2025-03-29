@@ -19,13 +19,12 @@ const ContactUs = () => {
 
             <div>
               <h3 className="text-2xl font-semibold text-gray-800">👨‍🏫 Contact Persons</h3>
-              <p className="text-gray-600 text-lg">Dr. Latika Desai, Dr. Ashok More</p>
+              <p className="text-gray-600 text-lg">Dr. Latika Desai &nbsp;📞9822601202</p>
+              <p className="text-gray-600 text-lg">Dr. Ashok More &nbsp;📞 9822208643</p>
+
             </div>
             
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800">Number</h3>
-              <p className="text-gray-600 text-lg">9822601202 , 9822208643</p>
-            </div>
+          
 
             <div>
               <h3 className="text-2xl font-semibold text-gray-800">📧 Email</h3>
