@@ -8,9 +8,14 @@ const committeeData = [
     {
         title: "TECHNICAL PROGRAM COMMITTEE CHAIRS",
         members: [
-            "Dr. Shyam Akashe, Director - Research & Development, ITM University, Gwalior, India",
-            "Dr. Nilanjan Dey, Professor, Techno International New Town, Chakpachuria, WB, India.",
-            "Dr. Durgesh Kumar Mishra, Professor (CSE) and Director Sri Aurobindo Institute of Technology, Indore, MP, India."
+            " Prof. Sheng-Lung Peng,  Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
+            "Dr. Nilanjan Dey, Associate Professor, Techno International New Town, Chakpachuria, WB, India.",
+            "Prof. Dr. Farzad Moradpouri,  Associate Professor, Department of Mining Engineering, Lorestan University",
+            "Prof. João Manuel R. S. Tavares,  Head of Department of Mechanical Engineering, University of Porto, Porto, Portugal",
+            "Prof. Dr. Luminiţa Moraru,  Department of Physics, Dunarea de Jos University of Galați, Galați, Romania",
+            "Prof. Dr. Sachin Jain,  Department of Computer Science, Oklahoma State University, OK, USA",
+            "Dr.Pratapsinh Kakasaheb Desai,  President, ISTE, New Delhi, India",
+            "Dr. Har Amrit Singh Sandhu,  President ASCE (American Society of Civil Engineers)"
         ]
     },
     {
