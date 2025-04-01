@@ -6,17 +6,33 @@ import tec from "../assets/tecture.png";
 
 const committeeData = [
     {
-        title: "TECHNICAL PROGRAM COMMITTEE CHAIRS",
+        title: "International Advisory Board",
         members: [
-            "Dr. Shyam Akashe, Director - Research & Development, ITM University, Gwalior, India",
-            "Dr. Nilanjan Dey, Professor, Techno International New Town, Chakpachuria, WB, India.",
-            "Dr. Durgesh Kumar Mishra, Professor (CSE) and Director Sri Aurobindo Institute of Technology, Indore, MP, India."
+            "Prof. Sheng-Lung Peng,  Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
+            "Prof. Dr. Farzad Moradpouri,  Associate Professor, Department of Mining Engineering, Lorestan University",
+            "Prof. João Manuel R. S. Tavares,  Head of Department of Mechanical Engineering, University of Porto, Porto, Portugal",
+            "Prof. Dr. Luminiţa Moraru,  Department of Physics, Dunarea de Jos University of Galați, Galați, Romania",
+            "Prof. Dr. Sachin Jain,  Department of Computer Science, Oklahoma State University, OK, USA",
+            "Dr. Wei-Chiang Hong,  Professor, SMIEEE, College of Shipbuilding Engineering, Harbin Engineering University, Harbin, China" ,
+            "Dr. Mohammad Abu Yousuf,  Vice-Chancellor, Gazipur Digital University Professor, Institute of Information Technology, Jahangirnagar University, Dhaka, Bangladesh ",
+            "Dr. Nilanjan Dey, Associate Professor, Techno International New Town, Chakpachuria, WB, India.",
+            
         ]
     },
     {
-        title: "TECHNICAL PROGRAM COMMITTEE MEMBERS",
+        title: " National Advisory Board",
         members: [
-            "Dr. S C Satapathy - Professor & Dean (Research), School of Computer Engg, KIIT Deemed to be University, Bhubaneswar, India"
+            "Dr. Rakesh Kumar Jain, Vice Chancellor Ajeenkya DY Patil University",
+            "Dr. Aditya Abhyankar Dean, Faculty of Technology, Savitribai Phule Pune University, Pune",
+            "Dr. Pramod Patil Dean- Faculty Science & Technology Savitribai Phule Pune University, Pune",
+            "Dr. Sushma Kulkarni Vice Chancellor, Nicmar University, Pune",
+            "Dr. Ranjeet Sawant Chairman, ISTE Maharashtra-Goa Section, India",
+            "Dr.Pratapsinh Kakasaheb Desai,  President, ISTE, New Delhi, India",
+            "Dr. Har Amrit Singh Sandhu,  President ASCE (American Society of Civil Engineers)",
+            "Dr. Sudip Thepade Chairman, BOS, IT",
+            "Dr. Sunil Thakare Chairman, BOS, Civil ",
+            "Dr. Nilesh Uke Chairman, BOS, Computer-AIDS",
+            "Dr. Abhijit Patankar Member, BOS, Information Technology"
         ]
     }
 ];
