@@ -43,11 +43,11 @@ const ConferenceClock = () => {
 
       {/* Clock Hands */}
       <div
-        className="absolute w-2 h-[70px] bg-blue-400 origin-center"
-        style={{ transform: `rotate(${hourRotation}deg) translateY(-60%)` }}
+        className="absolute w-1.5 h-[70px] bg-blue-400 origin-center"
+        style={{ transform: `rotate(${hourRotation}deg) translateY(-57%)` }}
       ></div>
       <div
-        className="absolute w-[2px] h-[90px] bg-yellow-400 origin-center"
+        className="absolute w-[2px] h-[95px] bg-yellow-400 origin-center"
         style={{ transform: `rotate(${minuteRotation}deg) translateY(-50%)` }}
       ></div>
       <div
