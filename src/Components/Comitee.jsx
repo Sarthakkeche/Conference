@@ -6,7 +6,7 @@ import tec from "../assets/tecture.png";
 
 const committeeData = [
     {
-        title: "International Advisory Board",
+        title: "TECHNICAL PROGRAM COMMITEE CHAIR",
         members: [
             "Prof. Sheng-Lung Peng,  Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
             "Prof. Dr. Farzad Moradpouri,  Associate Professor, Department of Mining Engineering, Lorestan University",
@@ -20,7 +20,7 @@ const committeeData = [
         ]
     },
     {
-        title: " National Advisory Board",
+        title: "TECHNICAL PROGRAM COMMITEE MEMBER",
         members: [
             "Dr. Rakesh Kumar Jain, Vice Chancellor Ajeenkya DY Patil University",
             "Dr. Aditya Abhyankar Dean, Faculty of Technology, Savitribai Phule Pune University, Pune",
