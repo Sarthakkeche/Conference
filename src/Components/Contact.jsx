@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Foot from "./Footer";
 import tec from "../assets/tecture.png";
-import bg from "../assets/bg.jpg";
+
 
 const ContactUs = () => {
   return (
@@ -10,8 +10,8 @@ const ContactUs = () => {
     <div style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
       <Navbar />
      
-      <div className="flex flex-col items-center mt-25 min-h-screen px-6 " style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
-        <div className="max-w-2xl w-full bg-white shadow-xl rounded-xl p-10 border border-gray-300 mt-10">
+      <div className="flex flex-col items-center justify-center min-h-screen px-6 " style={{backgroundImage: `url(${tec})` , backgroundSize: 'cover' }}>
+        <div className="max-w-2xl w-full bg-white mt-25 shadow-xl rounded-xl p-10 border border-gray-300 mt-10">
           <h2 className="text-4xl font-bold text-blue-700 text-center mb-8">Contact Us</h2>
 
           <div className="space-y-8 text-center">

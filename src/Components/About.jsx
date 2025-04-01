@@ -2,7 +2,7 @@
 import Navbar from "./Navbar";
 import Foot from "./Footer";
 import college from "../assets/college.png";
-import bg from "../assets/clo.png";
+import bg from "../assets/new.jpg";
 function About(){
     return(
         <>
