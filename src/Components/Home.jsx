@@ -9,6 +9,7 @@ import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 import img1 from "../assets/OIP.jpg";
 import img2 from "../assets/bg.jpg";
@@ -53,7 +54,7 @@ function Home() {
                     <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
                   </button>
                   <button className="mt-6 px-6 md:px-8 py-2 md:py-3 bg-blue-500 hover:bg-blue-700 text-white rounded-full text-sm md:text-lg font-semibold shadow-md transition-all duration-300">
-                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSc9NFQRIPuotTZ1yu5HQaOPWD27jBUd3dUrgM1EGZqlAsIgSA/viewform?usp=preview">Register Here</Link>
+                    <Link to="https://docs.google.com/forms/d/e/1FAIpQLSc9NFQRIPuotTZ1yu5HQaOPWD27jBUd3dUrgM1EGZqlAsIgSA/viewform?usp=preview">Register Here <ArrowOutwardIcon></ArrowOutwardIcon> </Link>
                   </button></div>
                 </div>
                 <div className="mt-6 md:mt-0">
