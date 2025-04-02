@@ -76,9 +76,9 @@ function Navbar() {
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                 <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
                 </li>
-                <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+                {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                   <Link to="/review-process">Review Process</Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </div>
@@ -152,9 +152,9 @@ function Navbar() {
               <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                  <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
               </li>
-              <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+              {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                 <Link to="/review-process">Review Process</Link>
-              </li>
+              </li> */}
             </ul>
           )}
         </div>
