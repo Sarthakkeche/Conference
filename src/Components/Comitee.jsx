@@ -6,33 +6,35 @@ import tec from "../assets/tecture.png";
 
 const committeeData = [
     {
-        title: "International Advisory Board",
+        title: "TECHNICAL PROGRAM COMMITTEE CHAIRS",
         members: [
-            "Prof. Sheng-Lung Peng,  Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
-            "Prof. Dr. Farzad Moradpouri,  Associate Professor, Department of Mining Engineering, Lorestan University",
-            "Prof. João Manuel R. S. Tavares,  Head of Department of Mechanical Engineering, University of Porto, Porto, Portugal",
-            "Prof. Dr. Luminiţa Moraru,  Department of Physics, Dunarea de Jos University of Galați, Galați, Romania",
-            "Prof. Dr. Sachin Jain,  Department of Computer Science, Oklahoma State University, OK, USA",
-            "Dr. Wei-Chiang Hong,  Professor, SMIEEE, College of Shipbuilding Engineering, Harbin Engineering University, Harbin, China" ,
-            "Dr. Mohammad Abu Yousuf,  Vice-Chancellor, Gazipur Digital University Professor, Institute of Information Technology, Jahangirnagar University, Dhaka, Bangladesh ",
+            "Prof. Dr. Sheng-Lung Peng, Director , Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
+           
             "Dr. Nilanjan Dey, Associate Professor, Techno International New Town, Chakpachuria, WB, India.",
             
         ]
     },
     {
-        title: " National Advisory Board",
+        title: " TECHNICAL PROGRAM COMMITTEE MEMBERS",
         members: [
+            "Dr. Farzad Moradpouri,  Associate Professor, Department of Mining Engineering, Lorestan University",
+            "Dr. João Manuel R. S. Tavares,  Head of Department of Mechanical Engineering, University of Porto, Porto, Portugal",
+            "Dr. Luminiţa Moraru,  Department of Physics, Dunarea de Jos University of Galați, Galați, Romania",
+            "Dr. Sachin Jain,  Department of Computer Science, Oklahoma State University, OK, USA",
+            "Dr. Wei-Chiang Hong,  Professor, SMIEEE, College of Shipbuilding Engineering, Harbin Engineering University, Harbin, China" ,
+            "Dr. Mohammad Abu Yousuf,  Vice-Chancellor, Gazipur Digital University Professor, Institute of Information Technology, Jahangirnagar University, Dhaka, Bangladesh ",
             "Dr. Rakesh Kumar Jain, Vice Chancellor Ajeenkya DY Patil University",
-            "Dr. Aditya Abhyankar Dean, Faculty of Technology, Savitribai Phule Pune University, Pune",
-            "Dr. Pramod Patil Dean- Faculty Science & Technology Savitribai Phule Pune University, Pune",
+            "Dr. Aditya Abhyankar Dean, Faculty of Technology, SPPU, Pune",
+            "Dr. Pramod Patil Dean- Faculty Science & Technology SPPU, Pune",
             "Dr. Sushma Kulkarni Vice Chancellor, Nicmar University, Pune",
             "Dr. Ranjeet Sawant Chairman, ISTE Maharashtra-Goa Section, India",
             "Dr.Pratapsinh Kakasaheb Desai,  President, ISTE, New Delhi, India",
             "Dr. Har Amrit Singh Sandhu,  President ASCE (American Society of Civil Engineers)",
-            "Dr. Sudip Thepade Chairman, BOS, IT",
-            "Dr. Sunil Thakare Chairman, BOS, Civil ",
-            "Dr. Nilesh Uke Chairman, BOS, Computer-AIDS",
-            "Dr. Abhijit Patankar Member, BOS, Information Technology"
+            "Dr. Sudip Thepade Chairman, BOS, Information Technology, SPPU, Pune",
+            "Dr. Sunil Thakare Chairman, BOS, Civil Engineering, SPPU, Pune ",
+            "Dr. Nilesh Uke Chairman, BOS, Computer-AIDS Engineering, SPPU, Pune",
+            "Dr. Abhijit Patankar Member, BOS, Information Technology, SPPU, Pune",
+            
         ]
     }
 ];
