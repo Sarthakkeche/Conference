@@ -133,36 +133,41 @@ function Navbar() {
 
         {/* Dropdown */}
         <div className="relative" ref={dropdownRef}>
-          <button
-            className="hover:text-blue-500 cursor-pointer flex items-center gap-2 transition-all duration-300"
-            onClick={() => setDropdownOpen(!dropdownOpen)}
-          >
-            Call For Papers
-            <FiChevronDown className={`transition-transform duration-300 ${dropdownOpen ? "rotate-180" : "group-hover:rotate-180"}`} />
-          </button>
-          
-          {dropdownOpen && (
-            <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 p-3 space-y-2 transition-opacity duration-300">
-              <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="/guide">Submission Guidelines</Link>
-              </li>
-              <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="/Topic">Topic of Interest</Link>
-              </li>
-              <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                 <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
-              </li>
-              {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="/review-process">Review Process</Link>
-              </li> */}
-            </ul>
-          )}
-        </div>
+  <button
+    className="hover:text-blue-500 cursor-pointer flex items-center gap-2 transition-all duration-300"
+    onClick={() => setDropdownOpen(!dropdownOpen)}
+  >
+    Call For Papers
+    <FiChevronDown className={`transition-transform duration-300 ${dropdownOpen ? "rotate-180" : "group-hover:rotate-180"}`} />
+  </button>
 
-        {/* <li className="hover:text-blue-500"><Link to="/Imp" className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`}>Important Dates</Link></li>
-        <li className="hover:text-blue-500"><Link to="/Venue" className={` ${location.pathname=='/Venue'?'text-blue-500' : ""}`}>Venue</Link></li>
-        <li className="hover:text-blue-500"><Link to="/registration" className={` ${location.pathname=='/registration'?'text-blue-500' : ""}`}>Registration</Link></li>
-        <li className="hover:text-blue-500"><Link to="/Contact" className={` ${location.pathname=='/Contact'?'text-blue-500' : ""}`}>Contact Us</Link></li> */}
+  {dropdownOpen && (
+    <ul
+      className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg p-3 space-y-2 transition-opacity duration-300 
+      border-2 border-linear-gradient(to right, red, blue, pink) 1 bg-clip-padding  rounded-lg"
+      style={{
+        
+        borderWidth: "2px",
+    borderRadius: "10px",
+    borderStyle: "solid",
+    borderImage: "linear-gradient(to right, red, blue, pink) 1",
+    backgroundClip: "padding-box",
+      }}
+    >
+      <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+        <Link to="/guide">Submission Guidelines</Link>
+      </li>
+      <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+        <Link to="/Topic">Topic of Interest</Link>
+      </li>
+      <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+        <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
+      </li>
+    </ul>
+  )}
+</div>
+
+        
         <li className="hover:text-blue-500 relative group">
   <Link
     to="/Imp"

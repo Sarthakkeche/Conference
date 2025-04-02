@@ -26,17 +26,19 @@ const committeeData = [
             "Dr. Sachin Jain,  Department of Computer Science, Oklahoma State University, OK, USA",
             "Dr. Wei-Chiang Hong,  Professor, SMIEEE, College of Shipbuilding Engineering, Harbin Engineering University, Harbin, China" ,
             "Dr. Mohammad Abu Yousuf,  Vice-Chancellor, Gazipur Digital University Professor, Institute of Information Technology, Jahangirnagar University, Dhaka, Bangladesh ",
-            "Dr. Rakesh Kumar Jain, Vice Chancellor Ajeenkya DY Patil University",
+            "Dr. Rakesh Kumar Jain, Vice Chancellor Ajeenkya DY Patil University, Pune",
             "Dr. Aditya Abhyankar Dean, Faculty of Technology, SPPU, Pune",
             "Dr. Pramod Patil Dean- Faculty Science & Technology SPPU, Pune",
             "Dr. Sushma Kulkarni Vice Chancellor, Nicmar University, Pune",
             "Dr. Ranjeet Sawant Chairman, ISTE Maharashtra-Goa Section, India",
-            "Dr.Pratapsinh Kakasaheb Desai,  President, ISTE, New Delhi, India",
+            "Dr. Pratapsinh Kakasaheb Desai,  President, ISTE, New Delhi, India",
             "Dr. Har Amrit Singh Sandhu,  President ASCE (American Society of Civil Engineers)",
             "Dr. Sudip Thepade Chairman, BOS, Information Technology, SPPU, Pune",
             "Dr. Sunil Thakare Chairman, BOS, Civil Engineering, SPPU, Pune ",
             "Dr. Nilesh Uke Chairman, BOS, Computer-AIDS Engineering, SPPU, Pune",
             "Dr. Abhijit Patankar Member, BOS, Information Technology, SPPU, Pune",
+            "Dr. Parikshit Mahalle Dean, R&D, Vishwakarma Institute of Technology, Pune",
+
             
         ]
     }
