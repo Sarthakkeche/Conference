@@ -6,7 +6,9 @@ import tec from "../assets/tecture.png";
 
 const committeeData = [
     {
-        title: "TECHNICAL PROGRAM COMMITTEE CHAIRS",
+
+        title: "TECHNICAL PROGRAM COMMITEE CHAIRS",
+
         members: [
             "Prof. Dr. Sheng-Lung Peng, Director , Department of Creative Technologies and Product Design, National Taipei University of Business, Taiwan",
            
@@ -15,7 +17,8 @@ const committeeData = [
         ]
     },
     {
-        title: " TECHNICAL PROGRAM COMMITTEE MEMBERS",
+        title: "TECHNICAL PROGRAM COMMITEE MEMBERS",
+
         members: [
             "Dr. Farzad Moradpouri,  Associate Professor, Department of Mining Engineering, Lorestan University",
             "Dr. João Manuel R. S. Tavares,  Head of Department of Mechanical Engineering, University of Porto, Porto, Portugal",
