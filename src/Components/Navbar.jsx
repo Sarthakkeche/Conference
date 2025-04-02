@@ -68,7 +68,7 @@ function Navbar() {
             {dropdownOpen && (
               <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 p-3 space-y-2 transition-opacity duration-300">
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/submission">Submission Guidelines</Link>
+                  <Link to="/guide">Submission Guidelines</Link>
                 </li>
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                   <Link to="/Topic">Topics of Interest</Link>
@@ -76,9 +76,9 @@ function Navbar() {
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                 <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
                 </li>
-                <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+                {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                   <Link to="/review-process">Review Process</Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </div>
@@ -144,7 +144,7 @@ function Navbar() {
           {dropdownOpen && (
             <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 p-3 space-y-2 transition-opacity duration-300">
               <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="/submission">Submission Guidelines</Link>
+                <Link to="/guide">Submission Guidelines</Link>
               </li>
               <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                 <Link to="/Topic">Topic of Interest</Link>
@@ -152,9 +152,9 @@ function Navbar() {
               <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                  <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
               </li>
-              <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+              {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                 <Link to="/review-process">Review Process</Link>
-              </li>
+              </li> */}
             </ul>
           )}
         </div>

@@ -158,37 +158,42 @@ function Registration() {
               <thead>
                 <tr className="bg-gray-700 text-yellow-400">
                   <th className="p-2 md:p-3 border">Categories</th>
-                  <th className="p-2 md:p-3 border">ISTE Member</th>
-                  <th className="p-2 md:p-3 border">Non-ISTE Member</th>
+                  <th className="p-2 md:p-3 border">Professional Body Members</th>
+                  <th className="p-2 md:p-3 border">Non-Professional Body Members</th>
+                  <th className="p-2 md:p-3 border">Students</th>
+
                 </tr>
               </thead>
               <tbody>
                 <tr className="bg-gray-600">
-                  <td colSpan="3" className="p-2 md:p-3 font-bold border">INDIAN AUTHORS</td>
+                  <td colSpan="4" className="p-2 md:p-3 font-bold border">INDIAN AUTHORS</td>
                 </tr>
                 <tr className="bg-gray-700">
-                  <td className="p-2 md:p-3 border">Graduate Student / Research Scholar / Academician / Industry</td>
-                  <td className="p-2 md:p-3 border">Rs. 3,000/-</td>
-                  <td className="p-2 md:p-3 border">Rs. 3,500/-</td>
+                  <td className="p-2 md:p-3 border">Research Scholar / Academician / Industry</td>
+                  <td className="p-2 md:p-3 border">INR 3000 + INR 540(GST)</td>
+                  <td className="p-2 md:p-3 border">INR 3500 + INR 630(GST)</td>
+                  <td className="p-2 md:p-3 border">INR 2500 + INR 450(GST)</td>
                 </tr>
-                <tr className="bg-gray-700">
+                {/* <tr className="bg-gray-700">
                   <td className="p-2 md:p-3 border">Extra page (after 6 pages)</td>
                   <td className="p-2 md:p-3 border">Rs. 500</td>
                   <td className="p-2 md:p-3 border">Rs. 500</td>
-                </tr>
+                </tr> */}
                 <tr className="bg-gray-600">
-                  <td colSpan="3" className="p-2 md:p-3 font-bold border">FOREIGN AUTHORS</td>
+                  <td colSpan="4" className="p-2 md:p-3 font-bold border">FOREIGN AUTHORS</td>
                 </tr>
                 <tr className="bg-gray-700">
-                  <td className="p-2 md:p-3 border">Graduate Student / Research Scholar / Academician / Industry</td>
-                  <td className="p-2 md:p-3 border">$180</td>
-                  <td className="p-2 md:p-3 border">$220</td>
+                  <td className="p-2 md:p-3 border">Research Scholar / Academician / Industry</td>
+                  <td className="p-2 md:p-3 border">$110</td>
+                  <td className="p-2 md:p-3 border">$140</td>
+                  <td className="p-2 md:p-3 border">$80</td>
+
                 </tr>
-                <tr className="bg-gray-700">
+                {/* <tr className="bg-gray-700">
                   <td className="p-2 md:p-3 border">Extra page (after 6 pages)</td>
                   <td className="p-2 md:p-3 border">$10</td>
                   <td className="p-2 md:p-3 border">$10</td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </div>

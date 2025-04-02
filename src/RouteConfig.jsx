@@ -7,6 +7,7 @@ import ContactUs  from "./Components/Contact";
 import Venue from "./Components/Venue";
 import Committe from "./Components/Comitee";
 import Topics from "./Components/Topic";
+import Sub from "./Components/Sub";
 
 
 const RoutesConfig = () => {
@@ -19,6 +20,7 @@ const RoutesConfig = () => {
     { path:"/Venue",element:<Venue/>},
     { path:"/comitee",element:<Committe/> },
     { path:"/Topic",element:<Topics/>},
+    { path:"/guide",element:<Sub/>},
 
   ]);
 };
