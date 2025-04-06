@@ -68,13 +68,13 @@ function Navbar() {
             {dropdownOpen && (
               <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 p-3 space-y-2 transition-opacity duration-300">
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/guide">Submission Guidelines</Link>
+                  <Link to="/guide"  className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Submission Guidelines</Link>
                 </li>
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/Topic">Topics of Interest</Link>
+                  <Link to="/Topic"  className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Topics of Interest</Link>
                 </li>
                 <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="https://www.cureusjournals.com/users/sign_in">Submit Paper</Link>
+                <Link to="https://www.cureusjournals.com/users/sign_in"  className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Submit Paper</Link>
                 </li>
                 {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
                   <Link to="/review-process">Review Process</Link>
