@@ -16,6 +16,7 @@ import img2 from "../assets/bg.jpg";
 import img3 from "../assets/bg2.jpg";
 import img4 from "../assets/bg3.jpg";
 import img5 from "../assets/bg4.jpg";
+import flyer from "../assets/Flyer.pdf";
 
 function Home() {
   return (
@@ -68,20 +69,31 @@ function Home() {
 
       {/* About Section */}
       <div className="bg-white text-gray-900 p-6 md:p-10 rounded-lg shadow-lg mx-4 md:mx-10 mt-10 text-center md:text-left">
-        <h2 className="text-blue-500 text-lg md:text-xl font-bold">ABOUT ICCSS 2025</h2>
-        <h3 className="text-2xl md:text-3xl font-bold mt-2">Mode: Hybrid</h3>
-        <p className="mt-4 text-sm md:text-base">
-          The International Conference on CyberTech & Smart Systems (ICCSS-2025) is a two-day event organized by
-          D. Y. Patil College of Engineering, Akurdi, Pune. The conference focuses on cybersecurity advancements
-          and smart technology innovations, bringing together researchers, academicians, and industry professionals
-          to share knowledge and insights.
-        </p>
-        <div className="mt-6 text-sm md:text-base">
-          <p><span className="font-bold">Conference Date:</span> 9th and 10th May, 2025</p>
-        
-          <p><span className="font-bold">Venue:</span> D.Y. Patil College of Engineering, Pune</p>
-        </div>
-      </div>
+  <h2 className="text-blue-500 text-lg md:text-xl font-bold">ABOUT ICCSS 2025</h2>
+  <h3 className="text-2xl md:text-3xl font-bold mt-2">Mode: Hybrid</h3>
+  <p className="mt-4 text-sm md:text-base">
+    The International Conference on CyberTech & Smart Systems (ICCSS-2025) is a two-day event organized by
+    D. Y. Patil College of Engineering, Akurdi, Pune. The conference focuses on cybersecurity advancements
+    and smart technology innovations, bringing together researchers, academicians, and industry professionals
+    to share knowledge and insights.
+  </p>
+  <div className="mt-6 text-sm md:text-base">
+    <p><span className="font-bold">Conference Date:</span> 9th and 10th May, 2025</p>
+    <p><span className="font-bold">Venue:</span> D.Y. Patil College of Engineering, Pune</p>
+  </div>
+
+  {/* ✅ Add Flyer Button */}
+  <div className="mt-6">
+    <a
+      href={flyer}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded hover:bg-blue-700 transition"
+    >
+      Conference brochure
+    </a>
+  </div>
+</div>
 
       {/* Footer */}
       <Foot />

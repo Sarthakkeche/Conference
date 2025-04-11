@@ -57,31 +57,53 @@ function Navbar() {
 
           {/* Dropdown for Call For Papers */}
           <div className="relative" ref={dropdownRef}>
-            <button
-              className="hover:text-blue-500 cursor-pointer flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300"
-              onClick={() => setDropdownOpen(!dropdownOpen)}
+      <button
+        onClick={() => setDropdownOpen(!dropdownOpen)}
+        className="hover:text-blue-500 cursor-pointer flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300"
+      >
+        Call For Papers
+        <FiChevronDown className={`transition-transform duration-300 ${dropdownOpen ? "rotate-180" : ""}`} />
+      </button>
+
+      {dropdownOpen && (
+        <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 p-3 space-y-2 z-50">
+          <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+            <Link
+              to="/guide"
+              className={location.pathname === "/guide" ? "text-blue-500" : ""}
+              onClick={() => {
+                setDropdownOpen(false);
+                setMenuOpen(false);
+              }}
             >
-              Call For Papers
-              <FiChevronDown className={`transition-transform duration-300 ${dropdownOpen ? "rotate-180" : "group-hover:rotate-180"}`} />
-            </button>
-            
-            {dropdownOpen && (
-              <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg border border-gray-200 p-3 space-y-2 transition-opacity duration-300">
-                <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/guide"  className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Submission Guidelines</Link>
-                </li>
-                <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/Topic"  className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Topics of Interest</Link>
-                </li>
-                <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                <Link to="https://www.cureusjournals.com/users/sign_in"  className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Submit Paper</Link>
-                </li>
-                {/* <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
-                  <Link to="/review-process">Review Process</Link>
-                </li> */}
-              </ul>
-            )}
-          </div>
+              Submission Guidelines
+            </Link>
+          </li>
+          <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+            <Link
+              to="/Topic"
+              className={location.pathname === "/Topic" ? "text-blue-500" : ""}
+              onClick={() => {
+                setDropdownOpen(false);
+                setMenuOpen(false);
+              }}
+            >
+              Topics of Interest
+            </Link>
+          </li>
+          <li className="hover:bg-blue-100 rounded-md px-3 py-2 transition-colors">
+            <a
+              href="https://www.cureusjournals.com/users/sign_in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500"
+            >
+              Submit Paper
+            </a>
+          </li>
+        </ul>
+      )}
+    </div>
 
           <li className="hover:text-blue-500">
             <Link to="/Imp" className={` ${location.pathname=='/Imp'?'text-blue-500' : ""}`} onClick={() => setMenuOpen(false)}>Important Dates</Link>
