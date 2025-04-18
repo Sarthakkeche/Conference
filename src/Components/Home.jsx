@@ -17,6 +17,7 @@ import img3 from "../assets/bg2.jpg";
 import img4 from "../assets/bg3.jpg";
 import img5 from "../assets/bg4.jpg";
 import flyer from "../assets/Flyer.pdf";
+import flyer1 from "../assets/flyer1.jpg"
 
 function Home() {
   return (
@@ -83,7 +84,8 @@ function Home() {
   </div>
 
   {/* ✅ Add Flyer Button */}
-  <div className="mt-6">
+ <div>
+ <div className="mt-6 flex gap-3">
     <a
       href={flyer}
       target="_blank"
@@ -92,7 +94,16 @@ function Home() {
     >
       Conference brochure
     </a>
+    <a
+      href={flyer1}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded hover:bg-blue-700 transition"
+    >
+      Conference Flyer
+    </a>
   </div>
+ </div>
 </div>
 
       {/* Footer */}
