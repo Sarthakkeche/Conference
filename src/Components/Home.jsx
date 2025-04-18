@@ -21,7 +21,7 @@ import flyer from "../assets/Flyer.pdf";
 function Home() {
   return (
     <div className="bg-gray-100 text-gray-800 min-h-screen">
-      <Navbar />
+      <Navbar /> 
 
       {/* Hero Section with Swiper */}
       <div className="h-screen relative">
