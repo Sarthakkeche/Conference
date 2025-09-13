@@ -61,9 +61,10 @@ function Home() {
                   </button> */}
 
                
-                  <button className="mt-6 px-6 md:px-8 py-2 md:py-3 bg-blue-500 hover:bg-blue-700 text-white rounded-full text-sm md:text-lg font-semibold shadow-md transition-all duration-300">
+                  {/* <button className="mt-6 px-6 md:px-8 py-2 md:py-3 bg-blue-500 hover:bg-blue-700 text-white rounded-full text-sm md:text-lg font-semibold shadow-md transition-all duration-300">
                     <Link to="https://docs.google.com/forms/d/e/1FAIpQLSc9NFQRIPuotTZ1yu5HQaOPWD27jBUd3dUrgM1EGZqlAsIgSA/viewform?usp=preview">Register Now <ArrowOutwardIcon className="mb-1"></ArrowOutwardIcon> </Link>
-                  </button></div>
+                  </button> */}
+                  </div>
 
                 </div>
                 <div className="mt-6 md:mt-0">
